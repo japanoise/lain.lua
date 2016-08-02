@@ -182,7 +182,7 @@ function onload()
       return
     end
 
-    client:debug("Leaving " .. message[2] .. " on " .. user["nick"]. .. "'s request'")
+    client:debug("Leaving " .. message[2] .. " on " .. user["nick"] .. "'s request'")
 
     -- clear channel buffer
     buffers[message[2]] = nil
